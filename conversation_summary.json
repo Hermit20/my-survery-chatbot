@@ -1,0 +1,38 @@
+[
+  {
+    "question": "if a friend or family member was looking for something similar, would you suggest the products you bought to them?",
+    "sentiment": "positive",
+    "topic": "product satisfaction",
+    "followUpQuestion": "What specifically made you feel confident in recommending our products to others - was it the quality, the features, or something else entirely?"
+  },
+  {
+    "question": "What specifically made you feel confident in recommending our products to others - was it the quality, the features, or something else entirely?",
+    "sentiment": "positive",
+    "topic": "product quality",
+    "followUpQuestion": "How did you feel about the prices of the items you purchased - did you think they were reasonable, or were they a bit higher than you were expecting?"
+  },
+  {
+    "question": "How did you feel about the prices of the items you purchased - did you think they were reasonable, or were they a bit higher than you were expecting?",
+    "sentiment": "neutral",
+    "topic": "product pricing",
+    "followUpQuestion": "Did you feel like the extra cost was worth it in the end, or are you still on the fence about it?"
+  },
+  {
+    "question": "Did you feel like the extra cost was worth it in the end, or are you still on the fence about it?",
+    "sentiment": "positive",
+    "topic": "value for money",
+    "followUpQuestion": "was the delivery time what you had expected, or was it faster or slower than you thought it would be?"
+  },
+  {
+    "question": "was the delivery time what you had expected, or was it faster or slower than you thought it would be?",
+    "sentiment": "positive",
+    "topic": "delivery experience",
+    "followUpQuestion": "Did everything arrive in good condition, or were there any issues with the packaging or delivery process?"
+  },
+  {
+    "question": "Did everything arrive in good condition, or were there any issues with the packaging or delivery process?",
+    "sentiment": "positive",
+    "topic": "delivery quality",
+    "followUpQuestion": null
+  }
+]

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SurveyMonkey AI Chatbot</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    #chat-container { width: 600px; max-width: 100%; margin: 0 auto; }
+    .message { margin: 5px 0; }
+    .user { color: blue; }
+    .assistant { color: green; }
+    #message-input { width: 80%; }
+
+    body {
+      background-color: #000;        /* Black background */
+      color: #fff;                  /* White text */
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      text-align: center;           /* Center all elements by default */
+    }
+
+    /* Container to center the chat elements */
+    #chat-container {
+      width: 600px;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Title (with SurveyMonkey logo & text) */
+    #chat-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;      /* Center horizontally */
+      gap: 10px;                    /* Space between logo & text */
+      margin-bottom: 20px;
+    }
+
+    #chat-title img {
+      width: 40px;                  /* Adjust logo size as needed */
+      height: auto;
+      vertical-align: middle;
+    }
+
+    #chat-title span {
+      color: #00ff7f;              /* “SurveyMonkey green” for text */
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    /* Chat log styling: green border, some padding */
+    #chat-log {
+      border: 2px solid #00ff7f;    /* Green outline */
+      padding: 10px;
+      height: 300px;                /* Fixed height for demo; adjust as needed */
+      overflow-y: auto;             /* Scroll if overflow */
+      margin-bottom: 20px;
+      background-color: #111;       /* Slightly lighter than black */
+      text-align: left;            /* Align chat messages left */
+    }
+
+    /* Individual messages */
+    .message {
+      margin: 5px 0;
+      line-height: 1.4;
+    }
+
+    /* Different colors for user vs. assistant */
+    .user {
+      color: #4ea3f5;  /* Light blue for user text */
+    }
+    .assistant {
+      color: #00ff7f;  /* Bright green for assistant text */
+    }
+
+    /* Input and buttons container */
+    #input-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    /* Textbox styling */
+    #message-input {
+      width: 50%;        /* Adjust to taste */
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 4px;
+      background-color: #222;
+      color: #fff;
+    }
+
+    /* Button styling */
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: #00ff7f;
+      color: #000;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #00cc66; /* Darker green on hover */
+    }
+
+  </style>
+</head>
+<body>
+
+<div id="chat-container">
+  <!-- Title with SurveyMonkey logo and text -->
+  <div id="chat-title">
+    <!-- Adjust the src URL to the desired SurveyMonkey logo or local file -->
+    <img src="../static/SurveyMoneyLogo-removebg-preview.png" alt="SurveyMonkey Logo">
+    <span>Goldie</span>
+  </div>
+
+  <!-- Chat log with green outline -->
+  <div id="chat-log">Say Hello</div>
+
+  <!-- Input + Send buttons -->
+  <div id="input-container">
+    <input type="text" id="message-input" placeholder="Type your message...">
+    <button id="send-btn">Send</button>
+    <button id="end-btn">End Conversation</button>
+  </div>
+</div>
+
+<script src="/static/main.js"></script>
+</body>
+</html>
+
